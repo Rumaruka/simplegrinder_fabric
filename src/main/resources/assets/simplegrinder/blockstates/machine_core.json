@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "simplegrinder:block/machine_core" }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "simplegrinder",
+  "version": "${version}",
+
+  "name": "Simple Grinder",
+  "description": "Simple Grinder for Fabric",
+  "authors": [
+    "Rumaruka"
+  ],
+
+
+  "license": "MIT",
+  "icon": "assets/simplegrinder/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.rumaruka.simplegrinder.SimpleGrinder"
+    ],
+    "client": [
+      "com.rumaruka.simplegrinder.SimpleGrinderClient"
+    ],
+    "rei_common": [
+      "com.rumaruka.simplegrinder.common.compat.jei.SimpleGrinderPlugin"
+    ]
+  },
+
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
